@@ -11,6 +11,121 @@
 /* html {
     height: 100%;
     width: 100%;
+  }
+header h1 {
+  text-align: center;
+  color: rgb(15, 12, 12);
+
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+
+.pet_images{
+  width: 640px;
+  height: 409px;
+}
+
+.Descriptions{
+  text-align: left;
+  font-family:serif;
+  font-size: small;
+}
+  main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+table {
+    width: 100%;
+    max-width: 1200px;
+    border-collapse: collapse;
+}
+td {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    vertical-align: top;
+}
+td img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+td h2 {
+    margin-top: 0;
+}
+
+/* *{ 
+  padding: 0px;
+  margin: 0px;
+  font-size: 25px;
+  color: black;
+  background-color:darkgray
+} */
+
+.nav-container{
+  background-color: darkcyan;
+  height: 100px;
+  
+}
+
+.nav-bar{
+         display: flex;
+         justify-content: space-around;
+         align-items:center;
+}
+
+.only{
+  background-color: red;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+.logo { 
+  margin-top: 10px;
+}
+
+.logo img{
+  border-radius: 8px;
+}
+
+
+.links{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.links li{
+  margin-right: 20px;
+  font-size: 25px;
+  
+}
+
+.links li a{
+  text-decoration: none;
+  color: white;
+}
+
+button{
+       color: black;
+       border-radius: 15px;
+       font-size: 20px;
+       padding: 5px 10px;
+       border: none;
+}      
+
+
+
+
+  
   } */
   
   .container-about {
