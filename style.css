@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  /* list-style: none; */
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
 html {
     height: 100%;
     width: 100%;
@@ -51,4 +61,115 @@ td h2 {
     margin-top: 0;
 }
 
+
+
+.nav-container{
+  background-color: darkcyan;
+  height: 100px;
   
+}
+
+.nav-bar{
+         display: flex;
+         justify-content: space-around;
+         align-items:center;
+}
+
+.only{
+  background-color: red;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+.logo { 
+  margin-top: 10px;
+}
+
+.logo img{
+  border-radius: 8px;
+}
+
+
+.links{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.links li{
+  margin-right: 20px;
+  font-size: 25px;
+  
+}
+
+.links li a{
+  text-decoration: none;
+  color: white;
+}
+
+button{
+       color: black;
+       border-radius: 15px;
+       font-size: 20px;
+       padding: 5px 10px;
+       border: none;
+}      
+
+
+  .container-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .img-about {
+    width: 80%;
+    margin: 30px auto;
+    height: 500px;
+    
+    /* height: 400px; */
+  }
+
+.about-container {
+  background-color: #eeeeee;
+  width: 80%;
+  margin: 10px auto;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.header-about {
+  text-align: center;
+  margin: 20px 0;
+
+}
+
+.info {
+  width: 80%;
+  margin: 10px auto;
+  
+  /* marg */
+}
+
+ul li{
+  margin-left: 50px;
+}
+
+
+.input-about{
+  padding: 5px 10px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: 0.5px solid #169b16;
+}
+
+
+.newsletter-about {
+  background-color: #169b16;
+  color: #fff;
+  border: none;
+  padding: 4px 10px;
+  border-top-right-radius: 4px !important;
+  border-bottom-right-radius: 4px !important;
+}
