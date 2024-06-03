@@ -213,3 +213,42 @@ text-align: center;
 justify-content: center;
 color: goldenrod !important; 
 }
+
+
+.col-md-6 {
+    padding-left: 0; /* Remove left padding */
+    padding-right: 15px; /* Keep some right padding for spacing */
+}
+
+.personel-info {
+    background-color: #E8E6F5; /* Light purple background color */
+    color: #3C431B; /* Updated text color */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Added box shadow */
+    border: 1px solid #ddd; /* Added border */
+}
+
+.personel-info h3 {
+    margin-top: 0;
+}
+
+.personel-info p {
+    margin-bottom: 5px;
+}
+
+.personel-info a {
+    color: #3C431B;
+    text-decoration: none;
+}
+
+.personel-info a:hover {
+    text-decoration: underline;
+}
+
+.container {
+
+margin: left 0;
+
+}
