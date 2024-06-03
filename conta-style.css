@@ -15,8 +15,9 @@ header h1 {
 }
 
 body {
-    background-color: antiquewhite;
-}
+    background-color: lightpink!important;
+  }
+  
 
 .pet_images {
     width: 640px;
@@ -209,11 +210,10 @@ ul li {
 }
 
 h1 {
-text-align: center;
-justify-content: center;
-color: goldenrod !important; 
+    text-align: center;
+    justify-content: center;
+    color: goldenrod !important; 
 }
-
 
 .col-md-6 {
     padding-left: 0; /* Remove left padding */
@@ -248,7 +248,21 @@ color: goldenrod !important;
 }
 
 .container {
+    margin: left 0;
+}
 
-margin: left 0;
+.left-sidebar {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 0; /* Remove all padding */
+    margin-right: 0; /* Remove right margin */
+}
 
+.right-sidebar {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 0; /* Remove all padding */
+    margin-left: 0; /* Remove left margin */
 }
