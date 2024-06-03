@@ -16,8 +16,7 @@ header h1 {
 
 body {
     background-color: lightpink!important;
-  }
-  
+}
 
 .pet_images {
     width: 640px;
@@ -170,77 +169,36 @@ ul li {
 .personnel {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center; /* Align cards to center horizontally */
     margin-top: 20px;
 }
 
-.personnel .personel {
-    width: 30%;
-    padding: 20px;
-    background-color: #F4F2E7; 
-    color: #3C431B; 
-    border-radius: 5px;
-    margin-bottom: 20px;
-    box-sizing: border-box;
-}
-
-.personnel .personel h3 {
-    margin-top: 0;
-}
-
-.personnel .personel p {
-    margin-bottom: 5px;
-}
-
-.personnel .personel a {
-    color: #3C431B;
-    text-decoration: none;
-}
-
-.personnel .personel a:hover {
-    text-decoration: underline;
-}
-
-.form_body {
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;
-}
-
-h1 {
-    text-align: center;
-    justify-content: center;
-    color: goldenrod !important; 
-}
-
-.col-md-6 {
-    padding-left: 0; /* Remove left padding */
-    padding-right: 15px; /* Keep some right padding for spacing */
-}
-
 .personel-info {
-    background-color: #E8E6F5; /* Light purple background color */
-    color: #3C431B; /* Updated text color */
+    width: 300px; /* Fixed width for each card */
     padding: 20px;
+    background-color: #F4F2E7;
+    color: #3C431B;
     border-radius: 10px;
-    margin-bottom: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Added box shadow */
-    border: 1px solid #ddd; /* Added border */
+    margin: 10px; /* Add margin for spacing between cards */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    box-sizing: border-box;
 }
 
 .personel-info h3 {
     margin-top: 0;
+    font-size: 1.2rem;
 }
 
 .personel-info p {
     margin-bottom: 5px;
+    font-size: 0.9rem;
 }
 
 .personel-info a {
     color: #3C431B;
     text-decoration: none;
+    font-size: 0.9rem;
 }
 
 .personel-info a:hover {
@@ -248,21 +206,24 @@ h1 {
 }
 
 .container {
-    margin: left 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Allow cards to wrap to the next line */
+    margin-top: 20px;
 }
 
 .left-sidebar {
     background-color: white;
     border: 1px solid #ddd;
     border-radius: 5px;
-    padding: 0; /* Remove all padding */
-    margin-right: 0; /* Remove right margin */
+    padding: 0;
+    margin-right: 0;
 }
 
 .right-sidebar {
     background-color: white;
     border: 1px solid #ddd;
     border-radius: 5px;
-    padding: 0; /* Remove all padding */
-    margin-left: 0; /* Remove left margin */
+    padding: 0;
+    margin-left: 0;
 }
