@@ -208,7 +208,7 @@ ul li {
 .container {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap; /* Allow cards to wrap to the next line */
+    flex-wrap: wrap; 
     margin-top: 20px;
 }
 
@@ -218,6 +218,7 @@ ul li {
     border-radius: 5px;
     padding: 0;
     margin-right: 0;
+    margin-bottom: 20px; 
 }
 
 .right-sidebar {
@@ -226,11 +227,12 @@ ul li {
     border-radius: 5px;
     padding: 0;
     margin-left: 0;
+    margin-bottom: 20px; 
 }
 
 h1 {
-
-text-align: center;
-justify-content: center;
-
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20px; 
 }
+
